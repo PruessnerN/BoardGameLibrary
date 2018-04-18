@@ -7,7 +7,7 @@
 			"family",
 			"adventure"
 		],
-		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
+		"Thumbnail": "https://upload.snakesandlattes.com/productsimages/1/1524-1380.jpg",
 		"MinPlayers": 5,
 		"MaxPlayers": 10
 	},
@@ -26,7 +26,7 @@
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
+		"Title": "Chess",
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
@@ -38,7 +38,7 @@
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
+		"Title": "Checkers",
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
@@ -50,7 +50,7 @@
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
+		"Title": "Sorry",
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
@@ -62,7 +62,7 @@
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
+		"Title": "Poker",
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
@@ -74,7 +74,7 @@
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
+		"Title": "Tic-Tac-Toe",
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
@@ -86,7 +86,7 @@
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
+		"Title": "Hopscotch",
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
@@ -98,7 +98,19 @@
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
+		"Title": "Ghost Recon: Wildlands",
+		"Description": "Fun game with cards.",
+		"Tags": [
+			"family",
+			"adventure"
+		],
+		"Thumbnail": "http://www.cardgamedb.com/forums/uploads/dec75f6da623cb82ffb6c92fcc799758.jpg",
+		"MinPlayers": 5,
+		"MaxPlayers": 10
+	},
+	{
+		"Id": 1,
+		"Title": "Call of Duty",
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
@@ -110,19 +122,7 @@
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
-		"Description": "Fun game with cards.",
-		"Tags": [
-			"family",
-			"adventure"
-		],
-		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
-		"MinPlayers": 5,
-		"MaxPlayers": 10
-	},
-	{
-		"Id": 1,
-		"Title": "Smashup",
+		"Title": "Far Cry",
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
