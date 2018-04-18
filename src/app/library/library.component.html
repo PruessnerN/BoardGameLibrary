@@ -4,15 +4,18 @@
 	</div>
 </div>
 
-<div class="container-fluid bg-3 text-center">
-	<h3>Board Game Library</h3>
-</div>
-<br>
-
-<div class="container-fluid bg-3 text-center">
-	<div *ngFor="let boardGame of boardGames; let i = index">
-		<div>{{boardGame.Title}}</div>
-	</div>
+<div>
+	<ul id="grid" class="clear">
+		<li *ngFor="let boardGame of boardGames; let i = index">
+			<div class="hexagon" [style.background-image]="sanitizeThumbnail(boardGame.Thumbnail)">
+				<div class="hexContent">
+					<!-- <div>{{boardGame.Title}}</div>
+					<div>{{boardGame.Description}}</div>
+					<div>Players: {{boardGame.MinPlayers}}-{{boardGame.MaxPlayers}}</div> -->
+				</div>
+			</div>
+		</li>
+	</ul>
 </div>
 <br>
 <br>
