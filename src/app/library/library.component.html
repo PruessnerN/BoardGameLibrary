@@ -6,12 +6,13 @@
 
 <div class="container-fluid bg-3 text-center">
 	<h3>Board Game Library</h3>
-
 </div>
 <br>
 
 <div class="container-fluid bg-3 text-center">
-
+	<div *ngFor="let boardGame of boardGames; let i = index">
+		<div>{{boardGame.Title}}</div>
+	</div>
 </div>
 <br>
 <br>
