@@ -12,6 +12,8 @@ import { BoardGame } from '../core/models/boardGame';
 export class LibraryComponent implements OnInit {
 
 	boardGames: BoardGame[] = [ new BoardGame() ];
+	searchedBoardGames: BoardGame[] = [ new BoardGame() ];
+	searchValue: string = "";
 
 	constructor(
 		private boardGamesService: BoardGamesService,
@@ -25,6 +27,7 @@ export class LibraryComponent implements OnInit {
 	getBoardGames(): void {
 		this.boardGamesService.getBoardGames().subscribe((boardGames) => {
 			this.boardGames = boardGames;
+			this.searchBoardGames();
 		}, 
 		(error) => {
 			console.log(error);
@@ -33,6 +36,12 @@ export class LibraryComponent implements OnInit {
 
 	sanitizeThumbnail(url): any {
 		return this.sanitizer.bypassSecurityTrustStyle(`url(${url})`);
+	}
+
+	searchBoardGames(): void {
+		this.searchedBoardGames = this.boardGames.filter((game) => {
+			return game.Title.toLocaleLowerCase().includes(this.searchValue.toLocaleLowerCase()) || game.Tags.includes(this.searchValue.toLocaleLowerCase()) || game.Description.toLocaleLowerCase().includes(this.searchValue.toLocaleLowerCase());
+		});
 	}
 
 }

@@ -27,38 +27,40 @@
 	{
 		"Id": 1,
 		"Title": "Chess",
-		"Description": "Fun game with cards.",
+		"Description": "Fun game with chess pieces.",
 		"Tags": [
 			"family",
-			"adventure"
+			"adventure",
+			"strategy"
 		],
 		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
-		"MinPlayers": 5,
-		"MaxPlayers": 10
+		"MinPlayers": 1,
+		"MaxPlayers": 2
 	},
 	{
 		"Id": 1,
 		"Title": "Checkers",
-		"Description": "Fun game with cards.",
+		"Description": "Fun game with.. wait for it.. checkers.",
 		"Tags": [
 			"family",
-			"adventure"
+			"strategy"
 		],
 		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
-		"MinPlayers": 5,
-		"MaxPlayers": 10
+		"MinPlayers": 1,
+		"MaxPlayers": 2
 	},
 	{
 		"Id": 1,
 		"Title": "Sorry",
-		"Description": "Fun game with cards.",
+		"Description": "Fun game that makes you want to punch your friends and family.",
 		"Tags": [
 			"family",
-			"adventure"
+			"chance",
+			"strategy"
 		],
 		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
-		"MinPlayers": 5,
-		"MaxPlayers": 10
+		"MinPlayers": 2,
+		"MaxPlayers": 4
 	},
 	{
 		"Id": 1,
@@ -66,34 +68,35 @@
 		"Description": "Fun game with cards.",
 		"Tags": [
 			"family",
-			"adventure"
+			"gambling"
 		],
 		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
-		"MinPlayers": 5,
+		"MinPlayers": 3,
 		"MaxPlayers": 10
 	},
 	{
 		"Id": 1,
 		"Title": "Tic-Tac-Toe",
-		"Description": "Fun game with cards.",
+		"Description": "Fun game with X's and O's.",
 		"Tags": [
 			"family",
-			"adventure"
+			"strategy",
+			"mind-numbing"
 		],
 		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
-		"MinPlayers": 5,
-		"MaxPlayers": 10
+		"MinPlayers": 1,
+		"MaxPlayers": 2
 	},
 	{
 		"Id": 1,
 		"Title": "Hopscotch",
-		"Description": "Fun game with cards.",
+		"Description": "Fun game with feet.",
 		"Tags": [
 			"family",
-			"adventure"
+			"physical"
 		],
 		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
-		"MinPlayers": 5,
+		"MinPlayers": 1,
 		"MaxPlayers": 10
 	},
 	{
@@ -101,12 +104,14 @@
 		"Title": "Ghost Recon: Wildlands",
 		"Description": "Fun game with cards.",
 		"Tags": [
-			"family",
-			"adventure"
+			"video game",
+			"action",
+			"third person",
+			"shooter"
 		],
 		"Thumbnail": "http://www.cardgamedb.com/forums/uploads/dec75f6da623cb82ffb6c92fcc799758.jpg",
-		"MinPlayers": 5,
-		"MaxPlayers": 10
+		"MinPlayers": 1,
+		"MaxPlayers": 4
 	},
 	{
 		"Id": 1,
@@ -123,22 +128,23 @@
 	{
 		"Id": 1,
 		"Title": "Far Cry",
-		"Description": "Fun game with cards.",
+		"Description": "Fun game with bears.",
 		"Tags": [
 			"family",
 			"adventure"
 		],
 		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
-		"MinPlayers": 5,
-		"MaxPlayers": 10
+		"MinPlayers": 1,
+		"MaxPlayers": 1
 	},
 	{
 		"Id": 1,
-		"Title": "Smashup",
-		"Description": "Fun game with cards.",
+		"Title": "Turtle Game",
+		"Description": "Fun game with turtles.",
 		"Tags": [
 			"family",
-			"adventure"
+			"adventure",
+			"time consuming"
 		],
 		"Thumbnail": "https://static-s.aa-cdn.net/img/ios/1195821282/0034ae9c655c9bbfb7502513bbbfbe54?v=1",
 		"MinPlayers": 5,
