@@ -1,21 +1,23 @@
 <div class="jumbotron">
 	<div class="container text-center">
-		<h1>Board games galore!</h1>
+		<h2>Board games galore!</h2>
 	</div>
 </div>
-
-<div>
+<div id="searchContainer" class="container-fluid" role="search">
+	<div class="form-group">
+		<input id="boardGameSearch" type="text" class="form-control" [(ngModel)]="searchValue" (keyup)="searchBoardGames($event)" placeholder="Enter title or tags...">
+	</div>
+</div>
+<div class="container-fluid">
 	<ul id="grid" class="clear">
-		<li *ngFor="let boardGame of boardGames; let i = index">
-			<div class="hexagon" [style.background-image]="sanitizeThumbnail(boardGame.Thumbnail)">
+		<li *ngFor="let boardGame of searchedBoardGames; let i = index">
+			<div class="hexagon"> <!--[style.background-image]="sanitizeThumbnail(boardGame.Thumbnail)" -->
 				<div class="hexContent">
-					<!-- <div>{{boardGame.Title}}</div>
+					<div>{{boardGame.Title}}</div>
 					<div>{{boardGame.Description}}</div>
-					<div>Players: {{boardGame.MinPlayers}}-{{boardGame.MaxPlayers}}</div> -->
+					<div>Players: {{boardGame.MinPlayers}}-{{boardGame.MaxPlayers}}</div>
 				</div>
 			</div>
 		</li>
 	</ul>
 </div>
-<br>
-<br>
