@@ -55,17 +55,21 @@
 #grid li:nth-child(6n+4), #grid li:nth-child(6n+5), #grid li:nth-child(6n+6) {
 	margin-top: -6.9285714285%;
 	margin-bottom: -6.9285714285%;
-	-o-transform: translateX(50%) rotate(-60deg) skewY(30deg);
-	-moz-transform: translateX(50%) rotate(-60deg) skewY(30deg);
-	-webkit-transform: translateX(50%) rotate(-60deg) skewY(30deg);
-	-ms-transform: translateX(50%) rotate(-60deg) skewY(30deg);
-	transform: translateX(50%) rotate(-60deg) skewY(30deg);
+	-o-transform: translateX(51%) rotate(-60deg) skewY(30deg);
+	-moz-transform: translateX(51%) rotate(-60deg) skewY(30deg);
+	-webkit-transform: translateX(51%) rotate(-60deg) skewY(30deg);
+	-ms-transform: translateX(51%) rotate(-60deg) skewY(30deg);
+	transform: translateX(51%) rotate(-60deg) skewY(30deg);
 }
 
 #grid li .hexagon .hexContent {
 	margin-top: 50px;
 	color: white;
 	text-align: center;
+	width: 95%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #grid li .hexagon .hexContent div:nth-child(1) {
@@ -86,9 +90,63 @@
 	margin: 20px auto;
 	text-align: center;
 	width: 60%;
-
 }
 
 #boardGameSearch {
 	width: 50%;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	#grid {
+		width: 90%;
+	}
+	#grid li .hexagon .hexContent div:nth-child(1) {
+		font-size: 2.5vw;
+	}
+	#grid li .hexagon .hexContent div:nth-child(2) {
+		font-size: 1.5vw;
+	}
+	#grid li .hexagon .hexContent div:nth-child(3) {
+		font-size: 1.5vw;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#searchContainer {
+		width: 80%;
+	}
+	#boardGameSearch {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#grid {
+		width: 80%;
+	}
+	#grid li:nth-child(3n+2) {
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	#grid li, #grid li:nth-child(6n+4), #grid li:nth-child(6n+5), #grid li:nth-child(6n+6) {
+		width: 100%;
+		padding: 0 0 115.5% 0;
+		margin-top: 0;
+		margin-bottom: 10px;
+		-o-transform: rotate(-60deg) skewY(30deg);
+		-moz-transform: rotate(-60deg) skewY(30deg);
+		-webkit-transform: rotate(-60deg) skewY(30deg);
+		-ms-transform: rotate(-60deg) skewY(30deg);
+		transform: rotate(-60deg) skewY(30deg);
+	}
+	#grid li .hexagon .hexContent div:nth-child(1) {
+		font-size: 8vw;
+	}
+	#grid li .hexagon .hexContent div:nth-child(2) {
+		font-size: 5vw;
+	}
+	#grid li .hexagon .hexContent div:nth-child(3) {
+		font-size: 5vw;
+	}
 }
