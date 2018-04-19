@@ -40,7 +40,21 @@ export class LibraryComponent implements OnInit {
 
 	searchBoardGames(): void {
 		this.searchedBoardGames = this.boardGames.filter((game) => {
-			return game.Title.toLocaleLowerCase().includes(this.searchValue.toLocaleLowerCase()) || game.Tags.includes(this.searchValue.toLocaleLowerCase()) || game.Description.toLocaleLowerCase().includes(this.searchValue.toLocaleLowerCase());
+			if(this.searchValue === "") {
+				return true;
+			}
+			let intSearchValue = parseInt(this.searchValue);
+			if(!isNaN(intSearchValue)) {
+				let playerCount: number[] = [];
+				for (let index = game.MinPlayers; index <= game.MaxPlayers; index++) {
+					playerCount.push(index);
+				}
+				return playerCount.includes(intSearchValue);
+			} else {
+				return game.Title.toLocaleLowerCase().includes(this.searchValue.toLocaleLowerCase())
+					|| game.Tags.includes(this.searchValue.toLocaleLowerCase())
+					|| game.Description.toLocaleLowerCase().includes(this.searchValue.toLocaleLowerCase());
+			}
 		});
 	}
 
